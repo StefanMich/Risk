@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\defaultOverlay.png</Source>
+      <Name>defaultOverlay</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Content\defaultOverlay.xnb</Output>
+      <Time>2013-03-27T19:01:16.0057397+01:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\overlay1.png</Source>
+      <Name>overlay1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Content\overlay1.xnb</Output>
+      <Time>2013-03-27T19:02:52.9173019+01:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\overlay2.png</Source>
+      <Name>overlay2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Content\overlay2.xnb</Output>
+      <Time>2013-03-29T14:10:40.0101549+01:00</Time>
+    </Item>
+<<<<<<< HEAD
+    <Item>
+      <Source>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\mouseMap.png</Source>
+      <Name>mouseMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Content\mouseMap.xnb</Output>
+      <Time>2013-03-29T15:14:18+01:00</Time>
+    </Item>
+=======
+>>>>>>> 8aaef83d3fb37efd1f1633208a2fbe02b877703b
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\RiskContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\RiskContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-07T15:48:14.1604532+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

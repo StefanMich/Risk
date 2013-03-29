@@ -1,0 +1,13 @@
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Risk.exe
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Risk.pdb
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\obj\x86\Debug\Risk.exe
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\obj\x86\Debug\Risk.pdb
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Content\overlay1.xnb
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Content\defaultOverlay.xnb
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Content\overlay2.xnb
+<<<<<<< HEAD
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Content\mouseMap.xnb
+=======
+>>>>>>> 8aaef83d3fb37efd1f1633208a2fbe02b877703b

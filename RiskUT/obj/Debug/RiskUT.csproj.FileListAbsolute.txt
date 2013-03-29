@@ -1,0 +1,11 @@
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\RiskUT\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\RiskUT\bin\Debug\Content\Region1.xnb
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\RiskUT\bin\Debug\RiskUT.dll
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\RiskUT\bin\Debug\RiskUT.pdb
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\RiskUT\bin\Debug\Risk.exe
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\RiskUT\bin\Debug\Risk.pdb
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\RiskUT\obj\Debug\RiskUT.dll
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\RiskUT\obj\Debug\RiskUT.pdb
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\RiskUT\bin\Debug\Content\overlay1.xnb
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\RiskUT\bin\Debug\Content\defaultOverlay.xnb
+C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\RiskUT\bin\Debug\Content\overlay2.xnb

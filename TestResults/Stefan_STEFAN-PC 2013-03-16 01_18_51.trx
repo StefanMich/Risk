@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="27590a61-cd99-417a-8741-5ede3f257972" name="Stefan@STEFAN-PC 2013-03-16 01:18:51" runUser="Stefan-PC\Stefan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8869617f-3b7c-40bb-96b7-123a92f62825">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Stefan_STEFAN-PC 2013-03-16 01_18_51">
+      <DeploymentItem filename="C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Risk.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-16T01:18:51.2173337+01:00" queuing="2013-03-16T01:18:51.2373349+01:00" start="2013-03-16T01:18:51.2723369+01:00" finish="2013-03-16T01:18:51.6503585+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NextPlayerTest1" storage="c:\users\stefan\dropbox\programmering\projects\risk\riskut\bin\debug\riskut.dll" id="3d665daa-21c6-e9bc-1933-18ef96d2a0a7">
+      <Execution id="59dc4520-9a65-43d1-9663-6cfabc7e034f" />
+      <TestMethod codeBase="C:/Users/Stefan/Dropbox/Programmering/Projects/Risk/RiskUT/bin/Debug/RiskUT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RiskUT.TurnManagerTest, RiskUT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NextPlayerTest1" />
+    </UnitTest>
+    <UnitTest name="NextPlayerTest" storage="c:\users\stefan\dropbox\programmering\projects\risk\riskut\bin\debug\riskut.dll" id="a7b649db-d33f-180b-eb64-7bc0ae1ff525">
+      <Execution id="096bd015-ca34-4b89-aa08-54175916fafd" />
+      <TestMethod codeBase="C:/Users/Stefan/Dropbox/Programmering/Projects/Risk/RiskUT/bin/Debug/RiskUT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RiskUT.TurnManagerTest, RiskUT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NextPlayerTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3d665daa-21c6-e9bc-1933-18ef96d2a0a7" executionId="59dc4520-9a65-43d1-9663-6cfabc7e034f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7b649db-d33f-180b-eb64-7bc0ae1ff525" executionId="096bd015-ca34-4b89-aa08-54175916fafd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="59dc4520-9a65-43d1-9663-6cfabc7e034f" testId="3d665daa-21c6-e9bc-1933-18ef96d2a0a7" testName="NextPlayerTest1" computerName="STEFAN-PC" duration="00:00:00.0302806" startTime="2013-03-16T01:18:51.2773372+01:00" endTime="2013-03-16T01:18:51.6053559+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59dc4520-9a65-43d1-9663-6cfabc7e034f">
+    </UnitTestResult>
+    <UnitTestResult executionId="096bd015-ca34-4b89-aa08-54175916fafd" testId="a7b649db-d33f-180b-eb64-7bc0ae1ff525" testName="NextPlayerTest" computerName="STEFAN-PC" duration="00:00:00.0005620" startTime="2013-03-16T01:18:51.6073560+01:00" endTime="2013-03-16T01:18:51.6163565+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="096bd015-ca34-4b89-aa08-54175916fafd">
+    </UnitTestResult>
+  </Results>
+</TestRun>

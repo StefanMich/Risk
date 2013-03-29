@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="22c4baf2-016c-448c-b45f-a3d3e40a12b5" name="Stefan@STEFAN-PC 2013-03-16 01:17:32" runUser="Stefan-PC\Stefan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8869617f-3b7c-40bb-96b7-123a92f62825">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Stefan_STEFAN-PC 2013-03-16 01_17_32">
+      <DeploymentItem filename="C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Risk.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-16T01:17:32.8538516+01:00" queuing="2013-03-16T01:17:33.6638979+01:00" start="2013-03-16T01:17:33.7559032+01:00" finish="2013-03-16T01:17:34.2519316+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NextPlayerTest" storage="c:\users\stefan\dropbox\programmering\projects\risk\riskut\bin\debug\riskut.dll" id="a7b649db-d33f-180b-eb64-7bc0ae1ff525">
+      <Execution id="b40a6525-19c0-47ba-82b7-146e58a4f58f" />
+      <TestMethod codeBase="C:/Users/Stefan/Dropbox/Programmering/Projects/Risk/RiskUT/bin/Debug/RiskUT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RiskUT.TurnManagerTest, RiskUT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NextPlayerTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a7b649db-d33f-180b-eb64-7bc0ae1ff525" executionId="b40a6525-19c0-47ba-82b7-146e58a4f58f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b40a6525-19c0-47ba-82b7-146e58a4f58f" testId="a7b649db-d33f-180b-eb64-7bc0ae1ff525" testName="NextPlayerTest" computerName="STEFAN-PC" duration="00:00:00.0705466" startTime="2013-03-16T01:17:33.7849048+01:00" endTime="2013-03-16T01:17:34.1959284+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b40a6525-19c0-47ba-82b7-146e58a4f58f">
+    </UnitTestResult>
+  </Results>
+</TestRun>
