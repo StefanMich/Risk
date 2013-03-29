@@ -63,7 +63,6 @@
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
-<<<<<<< HEAD
   <ItemGroup>
     <Compile Include="..\..\mouseMap.png">
       <Link>mouseMap.png</Link>
@@ -72,8 +71,6 @@
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
-=======
->>>>>>> 8aaef83d3fb37efd1f1633208a2fbe02b877703b
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

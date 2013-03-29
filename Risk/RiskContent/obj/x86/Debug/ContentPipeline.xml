@@ -28,7 +28,6 @@
       <Output>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Content\overlay2.xnb</Output>
       <Time>2013-03-29T14:10:40.0101549+01:00</Time>
     </Item>
-<<<<<<< HEAD
     <Item>
       <Source>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\mouseMap.png</Source>
       <Name>mouseMap</Name>
@@ -38,8 +37,6 @@
       <Output>C:\Users\Stefan\Dropbox\Programmering\Projects\Risk\Risk\Risk\bin\x86\Debug\Content\mouseMap.xnb</Output>
       <Time>2013-03-29T15:14:18+01:00</Time>
     </Item>
-=======
->>>>>>> 8aaef83d3fb37efd1f1633208a2fbe02b877703b
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
