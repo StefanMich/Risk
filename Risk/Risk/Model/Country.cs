@@ -9,12 +9,57 @@ namespace Risk
 {
     class Country
     {
-        string name;
-        Color color;
-        int troops;
-        Player owner;
-        List<Country> connections;
-        Region region;
-        Texture2D overlay;
+        public Country(string name, Color color, Region region, Texture2D overlay)
+        {
+            this.name = name;
+            this.color = color;
+            this.region = region;
+            this.overlay = overlay;
+        }
+
+        private string name;
+
+        public string Name
+        {
+            get { return name; }
+        }
+
+        private Color color;
+
+        public Color Color
+        {
+            get { return color; }
+        }
+
+        private int troops;
+
+        public int Troops
+        {
+            get { return troops; }
+            set { troops = value; }
+        }
+
+        private Player owner;
+
+        public Player Owner
+        {
+            get { return owner; }
+            set { owner = value; }
+        }
+
+
+        private Region region;
+
+        public Region Region
+        {
+            get { return region; }
+        }
+
+        private Texture2D overlay;
+
+        public Texture2D Overlay
+        {
+            get { return overlay; }
+        }
     }
 }
