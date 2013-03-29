@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 
 namespace Risk
 {
-    class Country
+    public class Country
     {
         public Country(string name, Color color, Region region, Texture2D overlay)
         {
