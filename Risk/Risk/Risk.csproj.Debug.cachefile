@@ -1,4 +1,9 @@
 Content\defaultOverlay.xnb
-Content\overlay1.xnb
-Content\overlay2.xnb
 Content\mouseMap.xnb
+Content\Map.xnb
+Content\overlayBlack.xnb
+Content\overlayBlue.xnb
+Content\overlayGreen.xnb
+Content\overlayLightBlue.xnb
+Content\overlayRed.xnb
+Content\overlayYellow.xnb

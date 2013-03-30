@@ -48,25 +48,55 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="..\..\overlay1.png">
-      <Link>overlay1.png</Link>
-      <Name>overlay1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\..\overlay2.png">
-      <Link>overlay2.png</Link>
-      <Name>overlay2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\mouseMap.png">
       <Link>mouseMap.png</Link>
       <Name>mouseMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Map.png">
+      <Link>Map.png</Link>
+      <Name>Map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="..\..\overlayBlack.png">
+      <Link>overlayBlack.png</Link>
+      <Name>overlayBlack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="..\..\overlayBlue.png">
+      <Link>overlayBlue.png</Link>
+      <Name>overlayBlue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="..\..\overlayGreen.png">
+      <Link>overlayGreen.png</Link>
+      <Name>overlayGreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="..\..\overlayLightBlue.png">
+      <Link>overlayLightBlue.png</Link>
+      <Name>overlayLightBlue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="..\..\overlayRed.png">
+      <Link>overlayRed.png</Link>
+      <Name>overlayRed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="..\..\overlayYellow.png">
+      <Link>overlayYellow.png</Link>
+      <Name>overlayYellow</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

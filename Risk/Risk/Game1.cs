@@ -21,9 +21,16 @@ namespace Risk
         SpriteBatch spriteBatch;
         
         Texture2D mouseMap;
-
+        Texture2D Map;
         Texture2D overlay;
-        Texture2D overlay1;
+
+        Texture2D overlayRed;
+        Texture2D overlayGreen;
+        Texture2D overlayBlue;
+        Texture2D overlayLightBlue;
+        Texture2D overlayYellow;
+        Texture2D overlayBlack;
+
         Texture2D defaultOverlay;
 
         RenderTarget2D render;
@@ -36,6 +43,7 @@ namespace Risk
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            
         }
 
         /// <summary>
@@ -64,7 +72,15 @@ namespace Risk
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             mouseMap = Content.Load<Texture2D>("mouseMap");
-            overlay1 = Content.Load<Texture2D>("overlay1");
+            Map = Content.Load<Texture2D>("Map");
+
+            overlayRed = Content.Load<Texture2D>("overlayRed");
+            overlayBlue = Content.Load<Texture2D>("overlayBlue");
+            overlayLightBlue = Content.Load<Texture2D>("overlayLightBlue");
+            overlayYellow = Content.Load<Texture2D>("overlayYellow");
+            overlayBlack = Content.Load<Texture2D>("overlayBlack");
+            overlayGreen= Content.Load<Texture2D>("overlayGreen");
+
             defaultOverlay = Content.Load<Texture2D>("defaultOverlay");
 
             overlay = defaultOverlay;
@@ -101,18 +117,23 @@ namespace Risk
 
             if (gameWindow.Contains(mouseposition) && mouseColor(mouseposition.X, mouseposition.Y) == Color.White)
             {
-                Window.Title = "Baggrund";
                 overlay = defaultOverlay;
             }
             else if (gameWindow.Contains(mouseposition) && mouseColor(mouseposition.X, mouseposition.Y) == new Color(0,255,0,255))
-                overlay = overlay1;
+                overlay = overlayGreen;
             else if (gameWindow.Contains(mouseposition) && mouseColor(mouseposition.X, mouseposition.Y) == new Color(255, 0, 0, 255))
-                overlay = overlay1;
-            else if (gameWindow.Contains(mouseposition))
-                Window.Title = mouseColor(mouseposition.X, mouseposition.Y).ToString();
-            else
-                Window.Title = "unknown lands";
-            
+                overlay = overlayRed;
+       
+            else if (gameWindow.Contains(mouseposition) && mouseColor(mouseposition.X, mouseposition.Y) == new Color(0, 0, 255, 255))
+                overlay = overlayBlue;
+            else if (gameWindow.Contains(mouseposition) && mouseColor(mouseposition.X, mouseposition.Y) == new Color(0, 0, 0, 255))
+                overlay = overlayBlack;
+            else if (gameWindow.Contains(mouseposition) && mouseColor(mouseposition.X, mouseposition.Y) == new Color(255, 255, 0, 255))
+                overlay = overlayYellow;
+            else if (gameWindow.Contains(mouseposition) && mouseColor(mouseposition.X, mouseposition.Y) == new Color(0, 255, 255, 255))
+                overlay = overlayLightBlue;
+
+          
             base.Update(gameTime);
         }
 
@@ -142,7 +163,7 @@ namespace Risk
 
 
             spriteBatch.Begin();
-            spriteBatch.Draw(mouseMap, gameWindow, Color.White);
+            spriteBatch.Draw(Map, gameWindow, Color.White);
             spriteBatch.Draw(overlay, gameWindow, Color.White);
             spriteBatch.End();
             // TODO: Add your drawing code here
