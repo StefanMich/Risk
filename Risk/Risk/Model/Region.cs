@@ -5,8 +5,14 @@ using System.Text;
 
 namespace Risk
 {
-    class Region
+    public class Region
     {
+        public Region(string name, int regionBonus, List<Country> countries)
+        {
+            this.name = name;
+            this.regionBonus = regionBonus;
+            this.countries = new CountryCollection(countries);
+        }
         private CountryCollection countries;
         private int regionBonus;
 
@@ -15,7 +21,21 @@ namespace Risk
             get { return regionBonus; }
         }
 
-        Player owner;
+        private Player owner;
+
+        public Player Owner
+        {
+            get { return owner; }
+            set { owner = value; }
+        }
+
+        private string name;
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
         
 
         public CountryCollection Countries
