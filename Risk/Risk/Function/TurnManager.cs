@@ -7,13 +7,16 @@ namespace Risk
 {
     public class TurnManager
     {
+        public TurnManager()
+        { }
         /// <summary>
         /// Initializes a new instance of the <see cref="TurnManager"/> class.
         /// </summary>
         /// <param name="players">The players.</param>
-        public TurnManager(PlayerColelction players)
+        public TurnManager(PlayerColelction players) : base()
         {
             this.players = players;
+            currentPlayer = players[0];
         }
 
         private Player currentPlayer;
@@ -27,7 +30,6 @@ namespace Risk
         public Player CurrentPlayer
         {
             get { return currentPlayer; }
-            set { currentPlayer = value; }
         }
 
         private PlayerColelction players;

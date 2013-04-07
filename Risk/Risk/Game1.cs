@@ -30,12 +30,18 @@ namespace Risk
 
         Vector2 position = Vector2.Zero;
         Rectangle gameWindow = new Rectangle(0,0,800, 600);
-        
 
+        List<Player> players = new List<Player>();
+        TurnManager turnManager = new TurnManager();
+        SpriteFont font;
+        
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            players.Add(new Player("Abe1"));
+            players.Add(new Player("Abe2"));
+            turnManager = new TurnManager(new TurnManager.PlayerColelction(players));
         }
 
         /// <summary>
@@ -69,7 +75,8 @@ namespace Risk
 
             overlay = defaultOverlay;
             render = new RenderTarget2D(graphics.GraphicsDevice, 1, 1);
-            
+
+            font = Content.Load<SpriteFont>("font");
             // TODO: use this.Content to load your game content here
         }
 
@@ -132,6 +139,11 @@ namespace Risk
             render.GetData<Color>(colors);
             return colors[0];
         }
+
+        private void DrawText()
+        {
+            spriteBatch.DrawString(font, turnManager.CurrentPlayer.Name + "'s turn!", new Vector2(0, 0), Color.Black);
+        }
         /// <summary>
         /// This is called when the game should draw itself.
         /// </summary>
@@ -144,6 +156,7 @@ namespace Risk
             spriteBatch.Begin();
             spriteBatch.Draw(mouseMap, gameWindow, Color.White);
             spriteBatch.Draw(overlay, gameWindow, Color.White);
+            DrawText();
             spriteBatch.End();
             // TODO: Add your drawing code here
 
